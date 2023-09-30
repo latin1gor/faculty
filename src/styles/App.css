@@ -1,0 +1,6 @@
+@import url("./css-imports/fonts.css");
+@import url("./css-imports/nullstyle.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
