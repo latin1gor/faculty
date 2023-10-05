@@ -1,0 +1,27 @@
+.parallax-container {
+    background-image: url('../img/background-1.png');  
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 120vh; 
+    overflow: hidden; 
+}
+
+
+.parallax-content {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    transform: translateY(0); /* Изначальное положение элементов */
+}
+
+#content1 {
+    transform: translateY(100px); /* Элемент смещается вверх */
+}
+
+#content2 {
+    transform: translateY(30px); /* Элемент смещается вниз */
+}
+
+
