@@ -1,5 +1,5 @@
 .bg-image2 {
-    background-image: url('./img/background-2.png');
+    background-image: url('/./img/background-2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -7,7 +7,7 @@
     overflow: hidden;   
   }
 .bg-image1 {
-    background-image: url('../../img/background-1.png');  
+    background-image: url('../../../img/background-1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -16,7 +16,7 @@
 }
 
 .bg-image3 {
-    background-image: url('../../img/purple3.png');
+    background-image: url('../../../img/purple3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,7 +24,7 @@
     overflow: hidden;
 }
 .purple-image{
-    background-image: url('../../img/purple2editet.jpg');  
+    background-image: url('../../../img/purple2editet.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -32,7 +32,7 @@
     overflow: hidden;
 }
 .purple-image2{
-    background-image: url('../../img/purple1.png');  
+    background-image: url('../../../img/purple1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -40,7 +40,7 @@
     overflow: hidden; 
 }
 .purple-image4{
-    background-image: url('../../img/purple4.png');  
+    background-image: url('../../../img/purple4.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -49,7 +49,7 @@
 }
 
 .purple-best{
-    background-image: url('../../img/purple-best.jpg');  
+    background-image: url('../../../img/purple-best.jpg');
     background-size: 60%;
     background-position: center;
     background-attachment: fixed;
