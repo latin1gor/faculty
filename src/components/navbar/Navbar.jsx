@@ -11,8 +11,8 @@ const Navbar = () => {
     <header className="w-[100%] h-[75px] text-sm  bg-black flex items-center justify-between">
       <Link to="/" className="logoname cursor-pointer font-semibold  ">
         <img
-          src="../../../img/img-1.png"
-          className=" max-h-[75px] max-h-12  w-auto cursor-pointer "
+          src="../../../img/img1.png"
+          className=" max-h-[75px] w-auto cursor-pointer "
         />
       </Link>
 
