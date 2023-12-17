@@ -1,30 +1,27 @@
-
-
-
 * {
   box-sizing: border-box;
 }
 
 header {
-  padding: 0 80px;
+  padding: 0 30px;
   
 }
+.login {
 
+}
 .hamburger {
   display: none;
 }
 
 .nav-bar ul li a {
-  display: block;
-  color: #cacccb;
+  color: #b8b9b8;
   padding: 10px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .nav-bar ul li a:hover {
-  color: rgb(219 39 119);
-   border-radius: 20px;
+  color: rgb(248, 248, 248);
   transition: 200ms ease-in-out;
 }
 
@@ -51,18 +48,17 @@ header {
   .nav-bar {
     height: 0;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
     right: 0;
     width: 100 vw;
-    background: #030712;
+    background: black;
     opacity: 0;
-
     z-index: 40;
   }
   .nav-bar.active {
-    margin-top: 10px;
-    height: 450px;
+    margin-top: 0px;
+    height: 350px;
     transition: 0.3s ease-in-out;
     opacity: 1;
     z-index: 50;
@@ -80,7 +76,48 @@ header {
     overflow: hidden;
     z-index: 60;
   }
+
+
+
 }
+
+@media only screen and (min-width: 1050px) {
+  .login {
+    display: flex;
+    border: 1px solid #1F1F1F;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    &:hover{
+      background: #1F1F1F;
+    }
+  }
+  .signup{
+    display: flex;
+    border: 1px solid #1F1F1F;
+    border-radius: 6px;
+    background-color: #dadada;
+    color: #383838 !important;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .signup:hover{
+      color: #000000 !important;
+      background-color: white;
+  }
+
+
+}
+
 
 @media only screen and (max-width: 1025px) {
   .nav-bar {
@@ -88,13 +125,6 @@ header {
   }
 }
 
-
-@media only screen and (max-width: 400px) {
-  .logoname {
-    font-size: 13px;
-    font-weight: bold;
-  }
-}
 a{
   color: white;
 }

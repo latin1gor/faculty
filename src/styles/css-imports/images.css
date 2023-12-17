@@ -16,20 +16,20 @@
 }
 
 .bg-image3 {
-    background-image: url('../../img/bg3.png');  
+    background-image: url('../../img/purple3.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    height: 120vh; 
-    overflow: hidden; 
+    background-attachment: fixed;
+    height: 120vh;
+    overflow: hidden;
 }
 .purple-image{
     background-image: url('../../img/purple2editet.jpg');  
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    height: 100vh; 
-    overflow: hidden; 
+    height: 80vh;
+    overflow: hidden;
 }
 .purple-image2{
     background-image: url('../../img/purple1.png');  
@@ -44,23 +44,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    height: 100vh; 
+    height: 100vh;
     overflow: hidden; 
 }
 
 .purple-best{
     background-image: url('../../img/purple-best.jpg');  
-    
-    /* Встановіть режим масштабування фонового зображення */
     background-size: 60%;
-    
-    /* Визначте позицію фонового зображення (в центрі) */
     background-position: center;
     background-attachment: fixed;
-    /* Визначте висоту контейнера (яку потрібно) */
-    height: 1200px; /* Налаштовуйте на ваш вибір */
+    height: 1200px;
     background-color: black;
-    /* Ця властивість допоможе вам вирівняти фонове зображення по центру горизонталі */
     background-repeat: no-repeat;
 }
-@media ()

@@ -1,4 +1,3 @@
-
 import ComparisonTable from '../components/startpage/comparison-table/ComparisonTable'
 import Footer from '../components/startpage/footer/Footer'
 import Header from '../components/startpage/header/Header'
@@ -12,7 +11,6 @@ const StartPage = () => {
       <Quote />
       <WhyChooseUs />
       <ComparisonTable />
-      <Footer />
     </div>
   )
 }

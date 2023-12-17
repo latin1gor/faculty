@@ -18,3 +18,24 @@ export const items = [
     text: 'Easily build your success as an engineer',
   },
 ];
+
+export const studentItems = [
+  {
+    id: 1,
+    icon: 'CalendarPlus',
+    title: 'Exams/credits schedule',
+    text: 'discover!',
+  },
+  {
+    id: 2,
+    icon: 'BugPlay',
+    title: 'Disciplines schedule',
+    text: 'discover!',
+  },
+  {
+    id: 3,
+    icon: 'CircleDollarSign',
+    title: 'Payment for studying',
+    text: 'Easily build your success as an engineer',
+  },
+]

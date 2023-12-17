@@ -4,7 +4,7 @@ const ComparisonTable = () => {
 
   return (
     <div className="bg-[#111827] h-[1100px]  text-center p-5  text-white pt-40 ">
-      <h1 className="text-4xl font-semithin text-shadow py-6 mb-16">
+      <h1 className="text-4xl font-semibold text-shadow py-6 mb-16">
         Why Lviv National Universtity?
       </h1>	
 

@@ -6,6 +6,7 @@ import Contacts from './pages/Contacts'
 import News from './pages/News'
 import Student from './pages/Student'
 import StartPage from './pages/StartPage'
+import Login from './pages/Login.jsx'
 
 function App() {
   return (
