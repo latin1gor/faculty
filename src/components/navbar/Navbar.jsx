@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-
+import { ArrowUpLeftFromCircle } from 'lucide-react'
 const Navbar = () => {
   const navRef = useRef()
 
@@ -10,11 +10,7 @@ const Navbar = () => {
   return (
     <header className="w-[100%] h-[75px] text-sm  bg-black flex items-center justify-between">
       <Link to="/" className=" cursor-pointer font-semibold rounded-full">
-        <img
-          src="../../../img/Герб_ФЕКТ.jpg"
-          alt={'Logo'}
-          className=" h-14 w-14  cursor-pointer rounded-full "
-        />
+        <ArrowUpLeftFromCircle size={28} className={'text-white'} />
       </Link>
 
       <div className="hamburger" onClick={toggleNavBar}>
