@@ -16,6 +16,7 @@ const Contacts = () => {
       const data = await getDocs(contactsRef)
       setContacts(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })))
     }
+    console.log(contacts)
 
     fetchData()
   }, [])

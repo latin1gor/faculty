@@ -9,10 +9,11 @@ const Navbar = () => {
 
   return (
     <header className="w-[100%] h-[75px] text-sm  bg-black flex items-center justify-between">
-      <Link to="/" className="logoname cursor-pointer font-semibold  ">
+      <Link to="/" className=" cursor-pointer font-semibold rounded-full">
         <img
-          src="../../../img/img1.png"
-          className=" max-h-[75px] w-auto cursor-pointer "
+          src="../../../img/Герб_ФЕКТ.jpg"
+          alt={'Logo'}
+          className=" h-14 w-14  cursor-pointer rounded-full "
         />
       </Link>
 
